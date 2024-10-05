@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bouzayenilyes/aero-nudge.git"
+    "url": "https://github.com/elliott-chong/aero-nudge.git"
   },
   "files": [
     "dist"
   ],
-  "author": "Ilyes Bouzayen",
+  "author": "Elliott Chong",
   "license": "MIT",
-  "homepage": "https://aero-nudge.vercel.app/",
+  "homepage": "https://aero-nudge.netlify.app/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
