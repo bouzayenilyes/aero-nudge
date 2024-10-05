@@ -1,0 +1,42 @@
+{
+  "name": "aero-nudge",
+  "version": "1.2.3",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "description": "Clerk inspired floating toast button for confirmation of actions, powered by Sonner",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "build:example": "vite build",
+    "dev": "vite",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsup": "^8.2.3",
+    "typescript": "^5.0.0",
+    "vite": "^5.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliott-chong/aero-nudge.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Elliott Chong",
+  "license": "MIT",
+  "homepage": "https://aero-nudge.netlify.app/",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sonner": "^1.5.0",
+    "styled-components": "^6.1.12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
