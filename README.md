@@ -97,7 +97,3 @@ This hook creates a floating toast button for confirming actions.
 ## License
 
 MIT
-
-## Author
-
-Elliott Chong
